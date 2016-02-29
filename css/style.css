@@ -138,6 +138,81 @@ section{
     transform:translateY(10px);
     background-color:black;
 }
+footer{
+    margin:0 auto;
+    margin-top: 3rem;
+    background-color:white;
+    width:30rem;
+    height:30rem;
+    display:block;
+    border:solid 3px;
+    
+}
+
+#fone{
+    margin:0 auto;
+    background-color:black;
+    transform:translateY(9%);
+    clear:both;
+    float:right;
+    
+}
+        
+#ftwo{
+
+    margin:0 auto;
+    background-color:black;
+    transform:translateY(19%);
+    clear:both;
+    float:left;
+}
+/*
+    margin:0 auto;
+    display:block;
+    float:left;
+    background-color:black;
+    transform:translateY(-91px)
+
+}
+*/
+
+#fthree{
+    margin:0 auto;
+    float:left;
+    background-color:black;
+    clear:both;
+    position:relative;
+    transform:translateY(33%);
+}
+#ffour{
+    margin:0 auto;
+    position:relative;
+    display:block;
+    transform:translateY(10%);
+    background-color:black;
+}
+#ffive{
+    margin:0 auto;
+    display:block;
+    position:absolute;
+    background-color:black;
+    transform:translateY(-90%)
+}
+#fsix{
+    margin:0 auto;
+    display:block;
+    background-color:black;
+    float:right;
+    transform:translateY(-80%)
+}
+
+
+
+
+
+
+
+
 
 
 
