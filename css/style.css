@@ -157,7 +157,7 @@ section{
     display:block;
     float:right;
     background-color:black;
-    transform:translateY(20%)
+    transform:translateY(190%)
 }
 #boxFive{
     margin:0 auto;
@@ -172,7 +172,7 @@ section{
 #bone{
     margin:0 auto;
     background-color:black;
-    transform:translateY(230%);
+    transform:translateY(350%);
     clear:both;
     float:right; 
 }
@@ -182,7 +182,7 @@ section{
     background-color:black;
     clear:both;
     position:relative;
-    transform:translateY(130%);
+    transform:translateY(250%);
 }
 #bfive{
     margin:0 auto;
@@ -195,7 +195,7 @@ section{
     margin:0 auto;
     display:block;
     background-color:black;
-    transform:translateY(120%) 
+    transform:translateY(190%) 
 }
 #bnine{
     margin:0 auto;
@@ -228,7 +228,7 @@ boxSix{
     background-color:black;
     clear:both;
     float:right;
-    transform:translateY(20%)
+    transform:translateY(80%)
 }
 #znine{
     margin:0 auto;
@@ -236,7 +236,7 @@ boxSix{
     float:right;
     clear:both;
     background-color:black;
-    transform:translateY(40%)
+    transform:translateY(160%)
 }
 #zfive{
     margin:0 auto;
@@ -249,7 +249,7 @@ boxSix{
 #ztwo{
     margin:0 auto;
     background-color:black;
-    transform:translateY(-181%);
+    transform:translateY(-115%);
     clear:both;
     float:left;
 }
@@ -259,7 +259,7 @@ boxSix{
     background-color:black;
     clear:both;
     position:relative;
-    transform:translateY(-163%);
+    transform:translateY(-23%);
 }
 
 /*THIS IS MY FOOTER BEGIN*/
