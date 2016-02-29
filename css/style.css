@@ -270,7 +270,6 @@ footer{
     background-color:white;
     width:10rem;
     height:10rem;
-    padding:16px;
     display:block;
     border:solid 3px;
     
@@ -279,7 +278,7 @@ footer{
 #fone{
     margin:0 auto;
     background-color:black;
-    transform:translateY(32%);
+    transform:translateY(182%);
     clear:both;
     float:right;
     
@@ -290,7 +289,7 @@ footer{
 
     margin:0 auto;
     background-color:black;
-    transform:translateY(-70%);
+    transform:translateY(270%);
     clear:both;
     float:left;
 }
@@ -312,7 +311,7 @@ footer{
     background-color:black;
     clear:both;
     position:relative;
-    transform:translateY(-53%);
+    transform:translateY(-8%);
 }
 #ffour{
     margin:0 auto;
@@ -333,19 +332,19 @@ footer{
     display:block;
     background-color:black;
     float:right;
-    transform:translateY(-280%)
+    transform:translateY(-180%)
 }
 #fseven{
     margin:0 auto;
     display:block;
     background-color:black;
-    transform:translateY(20%)
+    transform:translateY(90%)
 }
 #feight{
     margin:0 auto;
     display:block;
     background-color:black;
-    transform:translateY(40%);
+    transform:translateY(160%);
     
 }
 #fnine{
