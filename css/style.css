@@ -7,14 +7,56 @@ html,body{
     
 }   
 body{
-    background-color:aquamarine;
+    background-color:skyblue;
+    width:100%;
+    height:100%;
+}
+header{
+    background-color:ghostwhite;
+    margin:0 auto;
+    width:30rem;
+    height:30rem;
+    position:relative;
+    margin-bottom: 3rem;
 }
 div{
+    margin-top: 3rem;
     background-color:bisque;
     margin:0 auto;
     width:30rem;
     height:30rem;
-    content: one;
+    position:relative;
+}
+div{
+    
+    background-color:ghostwhite;
+    margin:0 auto;
+    width:30rem;
+    height:30rem;
+    content: ".";
+    position:relative;
+    
+}
+span{
+    background-color:ghostwhite;
+    margin:0 auto;
+    width:30rem;
+    height:30rem;
+    position:relative;
+}
+section{
+    background-color:ghostwhite;
+    margin:0 auto;
+    width:30rem;
+    height:30rem;
+    position:relative;
+}
+footer{
+    background-color:ghostwhite;
+    margin:0 auto;
+    width:30rem;
+    height:30rem;
+    position:relative;
 }
     
     
