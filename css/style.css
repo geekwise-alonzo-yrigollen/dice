@@ -121,7 +121,7 @@ section > h4 > #stwo{
     width:9rem;
     height:9rem;
     display:block;
-    float:right;
+    float:left;
     background-color:red;
 }
 #sthree{
