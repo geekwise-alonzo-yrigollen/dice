@@ -150,6 +150,51 @@ section{
     background-color:black;
     transform:translateY(20%)
 }
+#boxFive{
+    margin:0 auto;
+    margin-top: 3rem;
+    background-color:white;
+    width:30rem;
+    height:30rem;
+    padding:16px;
+    display:block;
+    border:solid 3px;
+}
+#bone{
+    margin:0 auto;
+    background-color:black;
+    transform:translateY(230%);
+    clear:both;
+    float:right; 
+}
+#bthree{
+    margin:0 auto;
+    float:left;
+    background-color:black;
+    clear:both;
+    position:relative;
+    transform:translateY(130%);
+}
+#bfive{
+    margin:0 auto;
+    display:block;
+    position:absolute;
+    background-color:black;
+    transform:translateY(20%) 
+}
+#bseven{
+    margin:0 auto;
+    display:block;
+    background-color:black;
+    transform:translateY(120%) 
+}
+#bnine{
+    margin:0 auto;
+    display:block;
+    float:right;
+    background-color:black;
+    transform:translateY(-80%) 
+}
 footer{
     margin:0 auto;
     margin-top: 3rem;
