@@ -112,10 +112,30 @@ section{
     background-color:white;
     width:30rem;
     height:30rem;
+    clear:both;
     margin-top: 3rem;
     border:solid 3px; 
 }
-
+section > h4 > #stwo{
+    margin:0 auto;
+    width:9rem;
+    height:9rem;
+    display:block;
+    float:right;
+    background-color:red;
+}
+#sthree{
+    margin:0 auto;
+    display:inline-block;
+    float:left;
+    background-color:red;
+}
+#sfour{
+    margin:0 auto;
+    display:inline-block;
+    transform:translateY(80px);
+    background-color:red;
+}
 
 
 
