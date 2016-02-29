@@ -37,6 +37,7 @@ span{
     border-radius: 50px;
     
 }
+
 div{
     margin:0 auto;
     margin-top: 3rem;
@@ -46,6 +47,7 @@ div{
     display:block;
     border:solid 3px;
 }
+
 #one{
     margin:0 auto;
     width:9rem;
@@ -77,35 +79,31 @@ article{
     border:solid 3px;
 }
 
-h3{
+#sp{
     margin:0 auto;
     width:9rem;
     height:9rem;
     display:block;
+    clear:both;
     transform: translateY(100%);
     background-color:black;
     border-radius: 50px;
-    float:left;  
+      
 }
 #three{
     margin:0 auto;
-    width:9rem;
-    height:9rem;
-    display:block;
-    transform: translateY(100%);
-    background-color:black;
-    border-radius: 50px;
+    display:inline-block;
+    transform:translateY();
+    clear:both;
      
 }
 #four{
     margin:0 auto;
-    width:9rem;
-    height:9rem;
-    display:block;
-    transform: translateY(100%);
-    background-color:black;
-    border-radius: 50px;
-    float:right; 
+    float:right;
+    display:inline;
+    transform:translate(10px);
+    
+    
 }
 /*SECTION TAG*/
 
