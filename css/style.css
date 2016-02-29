@@ -42,7 +42,7 @@ span{
 div{
     margin:0 auto;
     margin-top: 3rem;
-    background-color:blue;
+    background-color:white;
     width:30rem;
     height:30rem;
     display:block;
@@ -122,17 +122,20 @@ section{
     display:block;
     float:right;
     background-color:black;
+    transform:translateY(100px)
 }
 #sfour{
     margin:0 auto;
-    display:inline-block;
-    transform:translateY(80px);
+    position:relative;
+    display:block;
+    transform:translateY(100px);
     background-color:black;
 }
 #sfive{
     margin:0 auto;
-    display:inline-block;
-    transform:translateY(80px);
+    display:block;
+    position:absolute;
+    transform:translateY(10px);
     background-color:black;
 }
 
