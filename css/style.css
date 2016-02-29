@@ -17,12 +17,15 @@ header{
     
     background-color:ghostwhite;
     margin:0 auto;
+    display:block;
     width:30rem;
     height:30rem;
     border:solid 3px;
     position:relative;
     margin-bottom: 3rem;
+    
 }
+
 h1{
     margin:0 auto;
     width:10rem;
@@ -31,14 +34,95 @@ h1{
     transform: translateY(100%);
     background-color:black;
     border-radius: 50px;
+    
 }
+div{
+    margin:0 auto;
+    margin-top: 3rem;
+    background-color:white;
+    width:30rem;
+    height:30rem;
+    border:solid 3px;
+}
+h2{
+    margin:0 auto;
+    width:9rem;
+    height:9rem;
+    display:block;
+    transform: translateY(100%);
+    background-color:black;
+    border-radius: 50px;
+    float:left;
+
+}
+#two{
+    margin:0 auto;
+    width:9rem;
+    height:9rem;
+    display:block;
+    transform: translateY(100%);
+    background-color:black;
+    border-radius: 50px;
+    float:right;
+}
+article{
+    
+    margin:0 auto;
+    background-color:white;
+    width:30rem;
+    height:30rem;
+    margin-top: 3rem;
+    border:solid 3px;
+}
+h3{
+    margin:0 auto;
+    width:9rem;
+    height:9rem;
+    display:block;
+    transform: translateY(100%);
+    background-color:black;
+    border-radius: 50px;
+    float:left;  
+}
+#three{
+    margin:0 auto;
+    width:9rem;
+    height:9rem;
+    display:block;
+    transform: translateY(100%);
+    background-color:black;
+    border-radius: 50px;
+     
+}
+#four{
+    margin:0 auto;
+    width:9rem;
+    height:9rem;
+    display:block;
+    transform: translateY(100%);
+    background-color:black;
+    border-radius: 50px;
+    float:right; 
+}
+/*SECTION TAG*/
+
+
+
+
+
+
+
+/*
+
+
 div{
     clear:both;
     margin-top: 3rem;
-    background-color:bisque;
+    background-color:red;
     margin:0 auto;
     width:30rem;
     height:30rem;
+    float:right;
     position:relative;
     border:solid 3px;
     margin-bottom: 3rem;
@@ -47,13 +131,14 @@ h2{
     margin:0 auto;
     width:10rem;
     height:10rem;
-    display:block;
-    transform: translateY(20%);
+    transform: translateY(100%);
     background-color:black;
     border-radius: 50px;
+    clear:both;
+    border:none;
     float:left;
 }
-div{
+#one{
     
     background-color:ghostwhite;
     margin:0 auto;
@@ -63,19 +148,33 @@ div{
     content: ".";
     position:relative;
     margin-bottom: 3rem;
+
+}
+
+div{
+    
+    background-color:ghostwhite;
+    margin:0 auto;
+    width:20rem;
+    height:20rem;
+    border:solid 3px;
+    content: ".";
+    position:relative;
+    margin-bottom: 3rem;
+    
     
 }
 p{
   margin:0 auto;
   padding:0;
   display:block;
-    font-size:10rem
-    font-width:10rem;
+  font-size:10rem;
+  font-width:10rem;
   border:solid 3px;
   float:right;
   
 }
-span{
+article{
     background-color:ghostwhite;
     margin:0 auto;
     width:30rem;
@@ -105,6 +204,7 @@ footer{
     float:left;
     margin-bottom: 3rem;
 }
+*/
     
     
     
