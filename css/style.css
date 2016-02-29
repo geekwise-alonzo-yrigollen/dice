@@ -18,7 +18,7 @@ header{
     
     background-color:ghostwhite;
     margin:0 auto;
-    padding:2%;
+/*    padding:2%;*/
     display:block;
     width:30rem;
     height:30rem;
@@ -44,7 +44,7 @@ div{
     margin:0 auto;
     margin-top: 3rem;
     background-color:white;
-    padding:2%;
+/*    padding:2%;*/
     width:30rem;
     height:30rem;
     display:block;
@@ -78,7 +78,7 @@ article{
     background-color:white;
     width:30rem;
     height:30rem;
-     padding:2%;
+/*    padding:2%;*/
     margin-top: 3rem;
     border:solid 3px;
 }
@@ -115,7 +115,7 @@ section{
     background-color:white;
     width:30rem;
     height:30rem;
-    padding:2%;
+/*    padding:2%;*/
     clear:both;
     margin-top: 3rem;
     border:solid 3px; 
@@ -156,7 +156,7 @@ section{
     background-color:white;
     width:30rem;
     height:30rem;
-    padding:16px;
+/*    padding:16px;*/
     display:block;
     border:solid 3px;
 }
@@ -201,7 +201,7 @@ boxSix{
     background-color:white;
     width:30rem;
     height:30rem;
-    padding:16px;
+/*    padding:16px;*/
     display:block;
     clear:both;
     border:solid 3px;
@@ -348,7 +348,76 @@ footer{
     transform:translateX(100%)
 }
 
-OLD CSS
+@media only screen and (min-width:1020px) and (max-width:1101px){
+        
+header, div, article, section, #boxFive, #boxSix
+}
+    body{
+        display:inline-block;
+        background-color:orange;
+    }
+max-width{
+    
+}
+
+/*
+    header{
+        max-width:
+        float:left;
+        display:inline-block;
+
+    }
+    div{
+        float:left;
+        display:inline-block;
+    }
+    article{
+        display:inline-block;
+        float:left;
+    }
+    section{
+        display:inline-block;
+        float:left;
+    }
+    #boxFive{
+        display:inline;
+        float:right;
+    }
+    #boxSix{
+        display:inline;
+        float:right;
+    }
+    
+}
+*/
+    
+/*
+@media only screen and (max-width:919px){
+    body{
+        margin:auto;
+        display:inline-block;
+        width:auto;
+    }
+    div{
+        display:inline-block;
+
+    }
+    
+    body{
+    
+    background-color:skyblue;
+    max-width:100%/1.4;
+    max-height:100%;
+    border:solid 3px;    
+    }
+    article{
+        max-width:100%/1.4
+    }
+}
+*/
+
+
+/*OLD CSS*/
 /*
 div{
     clear:both;
@@ -440,9 +509,7 @@ footer{
 */
 
 
-    
-    
-    
+
     
     
     
