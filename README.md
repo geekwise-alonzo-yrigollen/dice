@@ -1,0 +1,2 @@
+# dice
+logic puzzle
