@@ -56,7 +56,7 @@ div{
     width:9rem;
     height:9rem;
     display:block;
-    transform: translateY(100%);
+    transform: translateY(-2%);
     background-color:black;
     border-radius: 50px;
     float:left;
@@ -67,7 +67,7 @@ div{
     width:9rem;
     height:9rem;
     display:block;
-    transform: translateY(100%);
+    transform: translateY(230%);
     background-color:black;
     border-radius: 50px;
     float:right;
@@ -270,22 +270,22 @@ footer{
 #fone{
     margin:0 auto;
     background-color:black;
-    transform:translateY(9%);
+    transform:translateY(32%);
     clear:both;
     float:right;
     
 }
         
-/*
+
 #ftwo{
 
     margin:0 auto;
     background-color:black;
-    transform:translateY(19%);
+    transform:translateY(-70%);
     clear:both;
     float:left;
 }
-*/
+
 /*
     margin:0 auto;
     display:block;
@@ -296,14 +296,14 @@ footer{
 }
 */
 
-/*
+
 #fthree{
     margin:0 auto;
     float:left;
     background-color:black;
     clear:both;
     position:relative;
-    transform:translateY(33%);
+    transform:translateY(-53%);
 }
 #ffour{
     margin:0 auto;
@@ -324,7 +324,7 @@ footer{
     display:block;
     background-color:black;
     float:right;
-    transform:translateY(-80%)
+    transform:translateY(-280%)
 }
 #fseven{
     margin:0 auto;
@@ -336,20 +336,20 @@ footer{
     margin:0 auto;
     display:block;
     background-color:black;
-    transform:translateY(30%)
+    transform:translateY(40%);
+    
 }
 #fnine{
     margin:0 auto;
     display:block;
     float:right;
     background-color:black;
-    transform:translateY(-70%)
+    transform:translateY(-55%);
+    transform:translateX(100%)
 }
-*/
 
+OLD CSS
 /*
-
-
 div{
     clear:both;
     margin-top: 3rem;
@@ -357,22 +357,15 @@ div{
     margin:0 auto;
     width:30rem;
     height:30rem;
+    display:block;
     float:right;
-    position:relative;
     border:solid 3px;
     margin-bottom: 3rem;
 }
-h2{
-    margin:0 auto;
-    width:10rem;
-    height:10rem;
-    transform: translateY(100%);
-    background-color:black;
-    border-radius: 50px;
-    clear:both;
-    border:none;
-    float:left;
-}
+*/
+
+
+/*
 #one{
     
     background-color:ghostwhite;
@@ -385,7 +378,9 @@ h2{
     margin-bottom: 3rem;
 
 }
+*/
 
+/*
 div{
     
     background-color:ghostwhite;
@@ -396,9 +391,10 @@ div{
     content: ".";
     position:relative;
     margin-bottom: 3rem;
-    
-    
+        
 }
+*/
+/*
 p{
   margin:0 auto;
   padding:0;
@@ -409,6 +405,8 @@ p{
   float:right;
   
 }
+*/
+/*
 article{
     background-color:ghostwhite;
     margin:0 auto;
@@ -440,6 +438,8 @@ footer{
     margin-bottom: 3rem;
 }
 */
+
+
     
     
     
