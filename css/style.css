@@ -18,6 +18,7 @@ header{
     
     background-color:ghostwhite;
     margin:0 auto;
+    padding:2%;
     display:block;
     width:30rem;
     height:30rem;
@@ -33,7 +34,7 @@ span{
     height:9rem;
     position:relative;
     display:block;
-    transform: translateY(100%);
+    transform: translateY(110%);
     background-color:black;
     border-radius: 50px;
     
@@ -43,6 +44,7 @@ div{
     margin:0 auto;
     margin-top: 3rem;
     background-color:white;
+    padding:2%;
     width:30rem;
     height:30rem;
     display:block;
@@ -76,6 +78,7 @@ article{
     background-color:white;
     width:30rem;
     height:30rem;
+     padding:2%;
     margin-top: 3rem;
     border:solid 3px;
 }
@@ -95,14 +98,14 @@ article{
     margin:0 auto;
     display:inline-block;
     clear:both;
-     
+    transform:translateY(125%);
+    
 }
 #four{
     margin:0 auto;
     margin-top:115px;
     float:right;
-    
-    
+    transform:translateY(114%);
     
 }
 /*SECTION TAG*/
@@ -112,31 +115,40 @@ section{
     background-color:white;
     width:30rem;
     height:30rem;
+    padding:2%;
     clear:both;
     margin-top: 3rem;
     border:solid 3px; 
 }
-
+#stwo{
+    margin:0 auto;
+    background-color:black;
+    transform:translateY(9%);
+    clear:both;
+    float:right;
+    
+}
 #sthree{
     margin:0 auto;
-    display:block;
-    float:right;
     background-color:black;
-    transform:translateY(100px)
+    transform:translateY(-95%);
+    clear:both;
+    float:left;
 }
 #sfour{
     margin:0 auto;
-    position:relative;
-    display:block;
-    transform:translateY(100px);
+    float:left;
     background-color:black;
+    clear:both;
+    position:relative;
+    transform:translateY(23%);
 }
 #sfive{
     margin:0 auto;
     display:block;
-    position:absolute;
-    transform:translateY(10px);
+    float:right;
     background-color:black;
+    transform:translateY(20%)
 }
 footer{
     margin:0 auto;
@@ -144,7 +156,7 @@ footer{
     background-color:white;
     width:30rem;
     height:30rem;
-    padding:3px;
+    padding:16px;
     display:block;
     border:solid 3px;
     
