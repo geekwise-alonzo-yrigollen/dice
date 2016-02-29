@@ -31,6 +31,7 @@ span{
     margin:0 auto;
     width:9rem;
     height:9rem;
+    position:relative;
     display:block;
     transform: translateY(100%);
     background-color:black;
@@ -83,9 +84,9 @@ article{
     margin:0 auto;
     width:9rem;
     height:9rem;
-    display:block;
+    display:inline-block;
     clear:both;
-    transform: translateY(100%);
+    transform: translateY(10%);
     background-color:black;
     border-radius: 50px;
       
@@ -93,15 +94,14 @@ article{
 #three{
     margin:0 auto;
     display:inline-block;
-    transform:translateY();
     clear:both;
      
 }
 #four{
     margin:0 auto;
+    margin-top:115px;
     float:right;
-    display:inline;
-    transform:translate(10px);
+    
     
     
 }
