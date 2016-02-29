@@ -99,21 +99,18 @@ article{
 }
 #three{
     margin:0 auto;
-    display:inline-block;
-    clear:both;
     width:2rem;
     height:2rem;
-    transform:translateY(195%);
-
-    
-    
+    position:relative;
+    display:block;
+    transform: translateY(100%);  
 }
 #four{
     margin:0 auto;
     width:2rem;
     height:2rem;
     float:right;
-    transform:translateY(380%);
+    transform:translateY(180%);
     
 }
 /*SECTION TAG*/
@@ -332,7 +329,7 @@ footer{
     display:block;
     background-color:black;
     float:right;
-    transform:translateY(-180%)
+    transform:translateY(-190%)
 }
 #fseven{
     margin:0 auto;
@@ -344,7 +341,7 @@ footer{
     margin:0 auto;
     display:block;
     background-color:black;
-    transform:translateY(160%);
+    transform:translateY(180%);
     
 }
 #fnine{
@@ -352,8 +349,8 @@ footer{
     display:block;
     float:right;
     background-color:black;
-    transform:translateY(-55%);
-    transform:translateX(100%)
+    transform:translateY(75%);
+
 }
 
 @media only screen and (min-width:1020px) and (max-width:1101px){
