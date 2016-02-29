@@ -14,6 +14,7 @@ body{
 }
 
 header{
+    
     background-color:ghostwhite;
     margin:0 auto;
     width:30rem;
@@ -22,7 +23,17 @@ header{
     position:relative;
     margin-bottom: 3rem;
 }
+h1{
+    margin:0 auto;
+    width:10rem;
+    height:10rem;
+    display:block;
+    transform: translateY(100%);
+    background-color:black;
+    border-radius: 50px;
+}
 div{
+    clear:both;
     margin-top: 3rem;
     background-color:bisque;
     margin:0 auto;
@@ -31,6 +42,16 @@ div{
     position:relative;
     border:solid 3px;
     margin-bottom: 3rem;
+}
+h2{
+    margin:0 auto;
+    width:10rem;
+    height:10rem;
+    display:block;
+    transform: translateY(20%);
+    background-color:black;
+    border-radius: 50px;
+    float:left;
 }
 div{
     
@@ -47,6 +68,9 @@ div{
 p{
   margin:0 auto;
   padding:0;
+  display:block;
+    font-size:10rem
+    font-width:10rem;
   border:solid 3px;
   float:right;
   
