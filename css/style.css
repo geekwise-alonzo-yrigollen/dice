@@ -1,0 +1,28 @@
+html,body{
+    
+    margin:7px;
+    padding:1px;
+    font-size:62.5%;
+    box-sizing:border-box;
+    
+}   
+body{
+    background-color:aquamarine;
+}
+div{
+    background-color:bisque;
+    margin:0 auto;
+    width:30rem;
+    height:30rem;
+    content: one;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
