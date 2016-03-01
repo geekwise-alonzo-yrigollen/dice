@@ -352,14 +352,45 @@ footer{
     transform:translateY(75%);
 
 }
-
-@media only screen and (min-width:1020px) and (max-width:1101px){
-        
-header, div, article, section, #boxFive, #boxSix
+/*
+#med{
+    display:inline-block;
+    margin:0 auto;
+    
+    
 }
-    body{
-        display:inline-block;
-        background-color:orange;
+*/
+
+@media only screen  and (max-width:1250px){
+        
+
+}
+header{
+    float:left;
+}
+div{
+    float:left;
+}
+article{
+    float:left;
+}
+section{
+    float:left;
+}
+#boxFive{
+    float:left;
+}
+#boxSix{
+    float:right;
+}
+
+/*
+        height: 17rem;
+        width: 17rem;
+        display:block;
+        background-color:white;
+        float:left;
+*/
     }
 
 
