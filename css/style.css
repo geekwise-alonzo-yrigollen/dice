@@ -304,11 +304,9 @@ footer{
 
 #fthree{
     margin:0 auto;
-    float:left;
+    float:right;
     background-color:black;
     clear:both;
-    position:relative;
-    transform:translateY(-8%);
 }
 #ffour{
     margin:0 auto;
@@ -334,22 +332,24 @@ footer{
 #fseven{
     margin:0 auto;
     display:block;
+    position:absolute;
     background-color:black;
-    transform:translateY(90%)
+    transform:translateY(99%)
 }
 #feight{
     margin:0 auto;
     display:block;
     background-color:black;
-    transform:translateY(180%);
+    transform:translateY(90%);
     
 }
 #fnine{
     margin:0 auto;
     display:block;
     float:right;
+    position:absolute;
     background-color:black;
-    transform:translateY(75%);
+    transform:translateY(185%);
 
 }
 /*
