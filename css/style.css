@@ -3,251 +3,24 @@ html, body{
     width: 100%;
     font-size: 62.7%;
     box-sizing: border-box;
-    
-    
+       
 }
-/*PARENT*/
+
 header{
-    background-color:ghostwhite;
     margin:0 auto;
-    display:block;
-    width:7rem;
-    height:7rem;
-    border:solid 3px;
-    margin-bottom: 1rem;
-    border-radius: 10px;
-    
+    width:10rem;
+    height: 10rem;
 }
 
-#first{
-    
-    margin:0 auto;
-    margin-top:22%;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    transform: translateY(45%);
-    
-    
-}
-/*PARENT*/
-div{
-    background-color:ghostwhite;
-    margin:0 auto;
-    margin-bottom: 1rem;
-    display:block;
-    width:7rem;
-    height:7rem;
-    clear:both;
-    border:solid 3px;
-    border-radius: 10px;
-    
-}
-#one{
-    
-    margin:0 auto;
-    margin-top:22%;
-    margin-bottom:30%;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    float:left;
-    transform: translateY(-69%); 
+.dice{
+    width:3rem;
+    height:3rem;
+    background-color:red;
 }
 
-#two{
-    
-    margin:0 auto;
-    margin-top:55%;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    float:right;
-    transform: translateY(45%); 
-}
 
-/*parent*/
-article{
-    background-color:ghostwhite;
-    margin:0 auto;
-    display:block;
-    width:7rem;
-    height:7rem;
-    clear:both;
-    border:solid 3px;
-    margin-bottom: 1rem;
-    border-radius: 10px;
-}
-#sp{
-    margin:0 auto;
-    margin-top:55%;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    float:right;
-    transform: translateY(45%); 
-}
-#three{
-    margin:0 auto;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    transform: translateY(15%);
-    float:left;
-}
-#four{
-    margin:0 auto;
-    margin-top:22%;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    transform: translateY(45%);
-}
-/*PARENT*/
-section{
-    background-color:ghostwhite;
-    margin:0 auto;
-    display:block;
-    width:7rem;
-    height:7rem;
-    clear:both;
-    border:solid 3px;
-    margin-bottom: 1rem;
-    border-radius: 10px; 
-}
-#stwo{
-    margin:0 auto;
-    margin-right: 83%;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    transform: translateY(5%); 
-}
-#sthree{
-    margin:0 auto;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    float:right;
-    transform: translateY(-95%);
-}
-#sfour{
-    margin:0 auto;
-    margin-top: 33%;
-    width:2rem;
-    height:2rem;
-    display:block;
-    background-color:black;
-    border-radius: 50px;
-    float:left;
-    transform: translateY(25%);
-}
-#sfive{
-    margin:0 auto;
-    margin-left: 15%;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    float:right;
-    transform: translateY(45%);  
-}
 
-/*parent*/
-#boxFive{
-    background-color:ghostwhite;
-    margin:0 auto;
-    display:block;
-    width:7rem;
-    height:7rem;
-    clear:both;
-    border:solid 3px;
-    margin-bottom: 1rem;
-    border-radius: 10px; 
-}
-#bone{
-    width:2rem;
-    height:2rem;
-    margin:0 auto;
-    margin-left: 3.7%;
-    background-color: black;
-    display:block;
-    position:absolute;
-    border-radius: 50%;
-    transform:translateY(39px)
-}
-#btwo{
-    margin:0 auto;
-    margin-right: 83%;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    transform: translateY(5%);   
-}
-#bthree{
-    margin:0 auto;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    float:right;
-    transform: translateY(-95%);   
-}
-#bfour{
-    margin:0 auto;
-    margin-top: 33%;
-    width:2rem;
-    height:2rem;
-    display:block;
-    background-color:black;
-    border-radius: 50px;
-    float:left;
-    transform: translateY(25%);
-}
-#bfive{
-    margin:0 auto;
-    margin-left: 15%;
-    width:2rem;
-    height:2rem;
-    display:block;
-    position:relative;
-    background-color:black;
-    border-radius: 50px;
-    float:right;
-    transform: translateY(45%);
-}
-/*PARENT*/
+
 
 #boxSix{
     
@@ -332,6 +105,7 @@ section{
     border-radius: 50%;
     transform:translateY(9px)
 }
+
 
 
 
