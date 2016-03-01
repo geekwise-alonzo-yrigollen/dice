@@ -1,553 +1,351 @@
-html,body{
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 62.7;
+    box-sizing: border-box;
     
-    margin:7px;
-    padding:1px;
-    font-size:62.5%;
-    box-sizing:border-box;
     
-}   
-body{
-    
-    background-color:skyblue;
-    width:100%;
-    height:100%;
-    border:solid 3px;
 }
-
+/*PARENT*/
 header{
-    
     background-color:ghostwhite;
     margin:0 auto;
-/*    padding:2%;*/
     display:block;
-    width:10rem;
-    height:10rem;
+    width:7rem;
+    height:7rem;
     border:solid 3px;
-    position:relative;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     border-radius: 10px;
     
 }
 
-span{
+#first{
+    
     margin:0 auto;
+    margin-top:22%;
     width:2rem;
     height:2rem;
-    position:relative;
     display:block;
-    transform: translateY(210%);
+    position:relative;
     background-color:black;
     border-radius: 50px;
+    transform: translateY(45%);
+    
     
 }
-
+/*PARENT*/
 div{
+    background-color:ghostwhite;
     margin:0 auto;
-    margin-top: 3rem;
-    background-color:white;
-/*    padding:2%;*/
-    width:10rem;
-    height:10rem;
+    margin-bottom: 1rem;
     display:block;
+    width:7rem;
+    height:7rem;
+    clear:both;
     border:solid 3px;
-    border-radius:10px;
+    border-radius: 10px;
+    
 }
-
 #one{
+    
     margin:0 auto;
+    margin-top:22%;
+    margin-bottom:30%;
     width:2rem;
     height:2rem;
     display:block;
-    transform: translateY(-2%);
+    position:relative;
     background-color:black;
     border-radius: 50px;
     float:left;
-
+    transform: translateY(-69%); 
 }
+
 #two{
+    
     margin:0 auto;
+    margin-top:55%;
     width:2rem;
     height:2rem;
     display:block;
-    transform: translateY(380%);
+    position:relative;
     background-color:black;
     border-radius: 50px;
     float:right;
-}
-article{
-    
-    margin:0 auto;
-    background-color:white;
-    width:10rem;
-    height:10rem;
-/*    padding:2%;*/
-    margin-top: 3rem;
-    border:solid 3px;
-    border-radius:10px;
+    transform: translateY(45%); 
 }
 
+/*parent*/
+article{
+    background-color:ghostwhite;
+    margin:0 auto;
+    display:block;
+    width:7rem;
+    height:7rem;
+    clear:both;
+    border:solid 3px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
 #sp{
     margin:0 auto;
+    margin-top:55%;
     width:2rem;
     height:2rem;
-    display:inline-block;
-    clear:both;
-    transform: translateY(10%);
+    display:block;
+    position:relative;
     background-color:black;
     border-radius: 50px;
-      
+    float:right;
+    transform: translateY(45%); 
 }
 #three{
     margin:0 auto;
     width:2rem;
     height:2rem;
-    position:relative;
     display:block;
-    transform: translateY(100%);  
+    position:relative;
+    background-color:black;
+    border-radius: 50px;
+    transform: translateY(15%);
+    float:left;
 }
 #four{
     margin:0 auto;
+    margin-top:22%;
     width:2rem;
     height:2rem;
-    float:right;
-    transform:translateY(180%);
-    
+    display:block;
+    position:relative;
+    background-color:black;
+    border-radius: 50px;
+    transform: translateY(45%);
 }
-/*SECTION TAG*/
-
+/*PARENT*/
 section{
+    background-color:ghostwhite;
     margin:0 auto;
-    background-color:white;
-    width:10rem;
-    height:10rem;
-/*    padding:2%;*/
+    display:block;
+    width:7rem;
+    height:7rem;
     clear:both;
-    margin-top: 3rem;
     border:solid 3px;
-    border-radius:10px;
+    margin-bottom: 1rem;
+    border-radius: 10px; 
 }
 #stwo{
     margin:0 auto;
+    margin-right: 83%;
+    width:2rem;
+    height:2rem;
+    display:block;
+    position:relative;
     background-color:black;
-    transform:translateY(9%);
-    clear:both;
-    float:right;
-    
+    border-radius: 50px;
+    transform: translateY(5%); 
 }
 #sthree{
     margin:0 auto;
+    width:2rem;
+    height:2rem;
+    display:block;
+    position:relative;
     background-color:black;
-    transform:translateY(-95%);
-    clear:both;
-    float:left;
+    border-radius: 50px;
+    float:right;
+    transform: translateY(-95%);
 }
 #sfour{
     margin:0 auto;
-    float:left;
+    margin-top: 33%;
+    width:2rem;
+    height:2rem;
+    display:block;
     background-color:black;
-    clear:both;
-    position:relative;
-    transform:translateY(160%);
+    border-radius: 50px;
+    float:left;
+    transform: translateY(25%);
 }
 #sfive{
     margin:0 auto;
+    margin-left: 15%;
+    width:2rem;
+    height:2rem;
     display:block;
-    float:right;
+    position:relative;
     background-color:black;
-    transform:translateY(190%)
+    border-radius: 50px;
+    float:right;
+    transform: translateY(45%);  
 }
+
+/*parent*/
 #boxFive{
+    background-color:ghostwhite;
     margin:0 auto;
-    margin-top: 3rem;
-    background-color:white;
-    width:10rem;
-    height:10rem;
-/*    padding:16px;*/
     display:block;
+    width:7rem;
+    height:7rem;
+    clear:both;
     border:solid 3px;
+    margin-bottom: 1rem;
+    border-radius: 10px; 
 }
 #bone{
+    width:2rem;
+    height:2rem;
     margin:0 auto;
+    margin-left: 6%;
+    background-color: black;
+    display:block;
+    position:absolute;
+    border-radius: 50%;
+    transform:translateY(39px)
+}
+#btwo{
+    margin:0 auto;
+    margin-right: 83%;
+    width:2rem;
+    height:2rem;
+    display:block;
+    position:relative;
     background-color:black;
-    transform:translateY(350%);
-    clear:both;
-    float:right; 
+    border-radius: 50px;
+    transform: translateY(5%);   
 }
 #bthree{
     margin:0 auto;
-    float:left;
-    background-color:black;
-    clear:both;
+    width:2rem;
+    height:2rem;
+    display:block;
     position:relative;
-    transform:translateY(250%);
+    background-color:black;
+    border-radius: 50px;
+    float:right;
+    transform: translateY(-95%);   
+}
+#bfour{
+    margin:0 auto;
+    margin-top: 33%;
+    width:2rem;
+    height:2rem;
+    display:block;
+    background-color:black;
+    border-radius: 50px;
+    float:left;
+    transform: translateY(25%);
 }
 #bfive{
     margin:0 auto;
+    margin-left: 15%;
+    width:2rem;
+    height:2rem;
     display:block;
-    position:absolute;
+    position:relative;
     background-color:black;
-    transform:translateY(20%) 
-}
-#bseven{
-    margin:0 auto;
-    display:block;
-    background-color:black;
-    transform:translateY(190%) 
-}
-#bnine{
-    margin:0 auto;
-    display:block;
+    border-radius: 50px;
     float:right;
-    background-color:black;
-    transform:translateY(-80%) 
+    transform: translateY(45%);
 }
-boxSix{
+/*PARENT*/
+
+#boxSix{
+    
+    background-color:ghostwhite;
     margin:0 auto;
-    margin-top: 3rem;
-    background-color:white;
-    width:10rem;
-    height:10rem;
-/*    padding:16px;*/
     display:block;
+    width:7rem;
+    height:7rem;
     clear:both;
     border:solid 3px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    
 }
 #zone{
+    width:2rem;
+    height:2rem;
     margin:0 auto;
-    background-color:black;
-    transform:translateY(1%);
-    clear:both;
-    float:right;
-}
-#zsix{
-    margin:0 auto;
+    margin-left: 6%;
+    background-color: black;
     display:block;
-    background-color:black;
-    clear:both;
+    position:relative;
+    border-radius: 50%;
     float:right;
-    transform:translateY(80%)
-}
-#znine{
-    margin:0 auto;
-    display:block;
-    float:right;
-    clear:both;
-    background-color:black;
-    transform:translateY(160%)
-}
-#zfive{
-    margin:0 auto;
-    display:block;
-    position:absolute;
-    clear:both;
-    background-color:black;
-    transform:translateY(-3%)
+    transform:translateY(38px) 
 }
 #ztwo{
+    width:2rem;
+    height:2rem;
     margin:0 auto;
-    background-color:black;
-    transform:translateY(-115%);
-    clear:both;
-    float:left;
+    margin-left: 23%;
+    background-color: black;
+    display:block;
+    position:relative;
+    float:right;
+    border-radius: 50%;
+    transform:translateY(39px);
+    transform:translateX(40px)
+        
 }
 #zthree{
+    width:2rem;
+    height:2rem;
     margin:0 auto;
-    float:left;
-    background-color:black;
-    clear:both;
-    position:relative;
-    transform:translateY(-23%);
-}
-
-/*THIS IS MY FOOTER BEGIN*/
-
-footer{
-    margin:0 auto;
-    margin-top: 3rem;
-    background-color:white;
-    width:10rem;
-    height:10rem;
+    margin-left: 6%;
+    background-color: black;
     display:block;
-    border:solid 3px;
-    
-}
-
-#fone{
+    border-radius: 50%;
+    transform:translateY(39px)
+}  
+#zfour{
+    width:2rem;
+    height:2rem;
     margin:0 auto;
-    background-color:black;
-    transform:translateY(182%);
-    clear:both;
-    float:right;
-    
-}
-        
-
-#ftwo{
-
-    margin:0 auto;
-    background-color:black;
-    transform:translateY(270%);
-    clear:both;
-    float:left;
-}
-
-/*
-    margin:0 auto;
-    display:block;
-    float:left;
-    background-color:black;
-    transform:translateY(-91px)
-
-}
-*/
-
-
-#fthree{
-    margin:0 auto;
-    float:left;
-    background-color:black;
-    clear:both;
-    position:relative;
-    transform:translateY(-8%);
-}
-#ffour{
-    margin:0 auto;
-    position:relative;
-    display:block;
-    transform:translateY(10%);
-    background-color:black;
-}
-#ffive{
-    margin:0 auto;
-    display:block;
-    position:absolute;
-    background-color:black;
-    transform:translateY(-90%)
-}
-#fsix{
-    margin:0 auto;
-    display:block;
-    background-color:black;
-    float:right;
-    transform:translateY(-190%)
-}
-#fseven{
-    margin:0 auto;
-    display:block;
-    background-color:black;
-    transform:translateY(90%)
-}
-#feight{
-    margin:0 auto;
-    display:block;
-    background-color:black;
-    transform:translateY(180%);
-    
-}
-#fnine{
-    margin:0 auto;
+    margin-left: 6%;
+    background-color: black;
     display:block;
     float:right;
-    background-color:black;
-    transform:translateY(75%);
-
+    border-radius: 50%;
+    transform:translateY(44px)
 }
-/*
-#med{
-    display:inline-block;
+#zfive{
+    width:2rem;
+    height:2rem;
     margin:0 auto;
-    
-    
-}
-*/
-
-@media only screen  and (max-width:1250px){
-        
-
-}
-header{
-    float:left;
-}
-div{
-    float:left;
-}
-article{
-    float:left;
-}
-section{
-    float:left;
-}
-#boxFive{
-    float:left;
-}
-#boxSix{
-    float:right;
-}
-
-/*
-        height: 17rem;
-        width: 17rem;
-        display:block;
-        background-color:white;
-        float:left;
-*/
-    }
-
-
-/*
-    header{
-        max-width:
-        float:left;
-        display:inline-block;
-
-    }
-    div{
-        float:left;
-        display:inline-block;
-    }
-    article{
-        display:inline-block;
-        float:left;
-    }
-    section{
-        display:inline-block;
-        float:left;
-    }
-    #boxFive{
-        display:inline;
-        float:right;
-    }
-    #boxSix{
-        display:inline;
-        float:right;
-    }
-    
-}
-*/
-    
-/*
-@media only screen and (max-width:919px){
-    body{
-        margin:auto;
-        display:inline-block;
-        width:auto;
-    }
-    div{
-        display:inline-block;
-
-    }
-    
-    body{
-    
-    background-color:skyblue;
-    max-width:100%/1.4;
-    max-height:100%;
-    border:solid 3px;    
-    }
-    article{
-        max-width:100%/1.4
-    }
-}
-*/
-
-
-/*OLD CSS*/
-/*
-div{
-    clear:both;
-    margin-top: 3rem;
-    background-color:red;
-    margin:0 auto;
-    width:30rem;
-    height:30rem;
+    margin-left: 6%;
+    background-color: black;
     display:block;
-    float:right;
-    border:solid 3px;
-    margin-bottom: 3rem;
+    float:left;
+    border-radius: 50%;
+    transform:translateY(-30px)
 }
-*/
-
-
-/*
-#one{
-    
-    background-color:ghostwhite;
+#zsix{
+    width:2rem;
+    height:2rem;
     margin:0 auto;
-    width:30rem;
-    height:30rem;
-    border:solid 3px;
-    content: ".";
-    position:relative;
-    margin-bottom: 3rem;
-
-}
-*/
-
-/*
-div{
-    
-    background-color:ghostwhite;
-    margin:0 auto;
-    width:20rem;
-    height:20rem;
-    border:solid 3px;
-    content: ".";
-    position:relative;
-    margin-bottom: 3rem;
-        
-}
-*/
-/*
-p{
-  margin:0 auto;
-  padding:0;
-  display:block;
-  font-size:10rem;
-  font-width:10rem;
-  border:solid 3px;
-  float:right;
-  
-}
-*/
-/*
-article{
-    background-color:ghostwhite;
-    margin:0 auto;
-    width:30rem;
-    height:30rem;
-    border:solid 3px;
-    float:right;
-    content:".";
-    position:relative;
-    margin-bottom: 3rem;
-}
-section{
-    background-color:ghostwhite;
-    margin:0 auto;
-    width:30rem;
-    height:30rem;
-    border:solid 3px;
-    position:relative;
-    margin-bottom: 3rem;
-}
-footer{
-    background-color:ghostwhite;
-    margin:0 auto;
-    width:30rem;
-    height:30rem;
-    border:solid 3px;
+    margin-left: 6%;
+    background-color: black;
+    display:block;
     position:relative;
     float:left;
-    margin-bottom: 3rem;
+    border-radius: 50%;
+    transform:translateY(9px)
 }
-*/
 
 
 
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
