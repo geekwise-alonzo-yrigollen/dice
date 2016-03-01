@@ -1,0 +1,552 @@
+html,body{
+    
+    margin:7px;
+    padding:1px;
+    font-size:62.5%;
+    box-sizing:border-box;
+    
+}   
+body{
+    
+    background-color:skyblue;
+    width:100%;
+    height:100%;
+    border:solid 3px;
+}
+
+header{
+    
+    background-color:ghostwhite;
+    margin:0 auto;
+    display:block;
+    width:2rem;
+    height:2rem;
+    border:solid 3px;
+    position:relative;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    
+}
+
+span{
+    margin:0 auto;
+    width:2rem;
+    height:2rem;
+    position:relative;
+    display:block;
+    transform: translateY(210%);
+    background-color:black;
+    border-radius: 50px;
+    
+}
+
+div{
+    margin:0 auto;
+    margin-top: 3rem;
+    background-color:white;
+/*    padding:2%;*/
+    width:10rem;
+    height:10rem;
+    display:block;
+    border:solid 3px;
+    border-radius:10px;
+}
+
+#one{
+    margin:0 auto;
+    width:2rem;
+    height:2rem;
+    display:block;
+    transform: translateY(-2%);
+    background-color:black;
+    border-radius: 50px;
+    float:left;
+
+}
+#two{
+    margin:0 auto;
+    width:2rem;
+    height:2rem;
+    display:block;
+    transform: translateY(380%);
+    background-color:black;
+    border-radius: 50px;
+    float:right;
+}
+article{
+    
+    margin:0 auto;
+    background-color:white;
+    width:10rem;
+    height:10rem;
+/*    padding:2%;*/
+    margin-top: 3rem;
+    border:solid 3px;
+    border-radius:10px;
+}
+
+#sp{
+    margin:0 auto;
+    width:2rem;
+    height:2rem;
+    display:inline-block;
+    clear:both;
+    transform: translateY(10%);
+    background-color:black;
+    border-radius: 50px;
+      
+}
+#three{
+    margin:0 auto;
+    width:2rem;
+    height:2rem;
+    position:relative;
+    display:block;
+    transform: translateY(100%);  
+}
+#four{
+    margin:0 auto;
+    width:2rem;
+    height:2rem;
+    float:right;
+    transform:translateY(180%);
+    
+}
+/*SECTION TAG*/
+
+section{
+    margin:0 auto;
+    background-color:white;
+    width:10rem;
+    height:10rem;
+/*    padding:2%;*/
+    clear:both;
+    margin-top: 3rem;
+    border:solid 3px;
+    border-radius:10px;
+}
+#stwo{
+    margin:0 auto;
+    background-color:black;
+    transform:translateY(9%);
+    clear:both;
+    float:right;
+    
+}
+#sthree{
+    margin:0 auto;
+    background-color:black;
+    transform:translateY(-95%);
+    clear:both;
+    float:left;
+}
+#sfour{
+    margin:0 auto;
+    float:left;
+    background-color:black;
+    clear:both;
+    position:relative;
+    transform:translateY(160%);
+}
+#sfive{
+    margin:0 auto;
+    display:block;
+    float:right;
+    background-color:black;
+    transform:translateY(190%)
+}
+#boxFive{
+    margin:0 auto;
+    margin-top: 3rem;
+    background-color:white;
+    width:10rem;
+    height:10rem;
+/*    padding:16px;*/
+    display:block;
+    border:solid 3px;
+}
+#bone{
+    margin:0 auto;
+    background-color:black;
+    transform:translateY(350%);
+    clear:both;
+    float:right; 
+}
+#bthree{
+    margin:0 auto;
+    float:left;
+    background-color:black;
+    clear:both;
+    position:relative;
+    transform:translateY(250%);
+}
+#bfive{
+    margin:0 auto;
+    display:block;
+    position:absolute;
+    background-color:black;
+    transform:translateY(20%) 
+}
+#bseven{
+    margin:0 auto;
+    display:block;
+    background-color:black;
+    transform:translateY(190%) 
+}
+#bnine{
+    margin:0 auto;
+    display:block;
+    float:right;
+    background-color:black;
+    transform:translateY(-80%) 
+}
+boxSix{
+    margin:0 auto;
+    margin-top: 3rem;
+    background-color:white;
+    width:10rem;
+    height:10rem;
+/*    padding:16px;*/
+    display:block;
+    clear:both;
+    border:solid 3px;
+}
+#zone{
+    margin:0 auto;
+    background-color:black;
+    transform:translateY(1%);
+    clear:both;
+    float:right;
+}
+#zsix{
+    margin:0 auto;
+    display:block;
+    background-color:black;
+    clear:both;
+    float:right;
+    transform:translateY(80%)
+}
+#znine{
+    margin:0 auto;
+    display:block;
+    float:right;
+    clear:both;
+    background-color:black;
+    transform:translateY(160%)
+}
+#zfive{
+    margin:0 auto;
+    display:block;
+    position:absolute;
+    clear:both;
+    background-color:black;
+    transform:translateY(-3%)
+}
+#ztwo{
+    margin:0 auto;
+    background-color:black;
+    transform:translateY(-115%);
+    clear:both;
+    float:left;
+}
+#zthree{
+    margin:0 auto;
+    float:left;
+    background-color:black;
+    clear:both;
+    position:relative;
+    transform:translateY(-23%);
+}
+
+/*THIS IS MY FOOTER BEGIN*/
+
+footer{
+    margin:0 auto;
+    margin-top: 3rem;
+    background-color:white;
+    width:10rem;
+    height:10rem;
+    display:block;
+    border:solid 3px;
+    
+}
+
+#fone{
+    margin:0 auto;
+    background-color:black;
+    transform:translateY(182%);
+    clear:both;
+    float:right;
+    
+}
+        
+
+#ftwo{
+
+    margin:0 auto;
+    background-color:black;
+    transform:translateY(270%);
+    clear:both;
+    float:left;
+}
+
+/*
+    margin:0 auto;
+    display:block;
+    float:left;
+    background-color:black;
+    transform:translateY(-91px)
+
+}
+*/
+
+
+#fthree{
+    margin:0 auto;
+    float:right;
+    background-color:black;
+    clear:both;
+}
+#ffour{
+    margin:0 auto;
+    position:relative;
+    display:block;
+    transform:translateY(10%);
+    background-color:black;
+}
+#ffive{
+    margin:0 auto;
+    display:block;
+    position:absolute;
+    background-color:black;
+    transform:translateY(-90%)
+}
+#fsix{
+    margin:0 auto;
+    display:block;
+    background-color:black;
+    float:right;
+    transform:translateY(-190%)
+}
+#fseven{
+    margin:0 auto;
+    display:block;
+    position:absolute;
+    background-color:black;
+    transform:translateY(99%)
+}
+#feight{
+    margin:0 auto;
+    display:block;
+    background-color:black;
+    transform:translateY(90%);
+    
+}
+#fnine{
+    margin:0 auto;
+    display:block;
+    float:right;
+    position:absolute;
+    background-color:black;
+    transform:translateY(185%);
+
+}
+/*
+#med{
+    display:inline-block;
+    margin:0 auto;
+    
+    
+}
+*/
+
+@media only screen  and (max-width:1250px){
+        
+
+}
+header{
+    float:left;
+}
+div{
+    float:left;
+}
+article{
+    float:left;
+}
+section{
+    float:left;
+}
+#boxFive{
+    float:left;
+}
+#boxSix{
+    float:right;
+}
+
+/*
+        height: 17rem;
+        width: 17rem;
+        display:block;
+        background-color:white;
+        float:left;
+*/
+    }
+
+
+/*
+    header{
+        max-width:
+        float:left;
+        display:inline-block;
+
+    }
+    div{
+        float:left;
+        display:inline-block;
+    }
+    article{
+        display:inline-block;
+        float:left;
+    }
+    section{
+        display:inline-block;
+        float:left;
+    }
+    #boxFive{
+        display:inline;
+        float:right;
+    }
+    #boxSix{
+        display:inline;
+        float:right;
+    }
+    
+}
+*/
+    
+/*
+@media only screen and (max-width:919px){
+    body{
+        margin:auto;
+        display:inline-block;
+        width:auto;
+    }
+    div{
+        display:inline-block;
+
+    }
+    
+    body{
+    
+    background-color:skyblue;
+    max-width:100%/1.4;
+    max-height:100%;
+    border:solid 3px;    
+    }
+    article{
+        max-width:100%/1.4
+    }
+}
+*/
+
+
+/*OLD CSS*/
+/*
+div{
+    clear:both;
+    margin-top: 3rem;
+    background-color:red;
+    margin:0 auto;
+    width:30rem;
+    height:30rem;
+    display:block;
+    float:right;
+    border:solid 3px;
+    margin-bottom: 3rem;
+}
+*/
+
+
+/*
+#one{
+    
+    background-color:ghostwhite;
+    margin:0 auto;
+    width:30rem;
+    height:30rem;
+    border:solid 3px;
+    content: ".";
+    position:relative;
+    margin-bottom: 3rem;
+
+}
+*/
+
+/*
+div{
+    
+    background-color:ghostwhite;
+    margin:0 auto;
+    width:20rem;
+    height:20rem;
+    border:solid 3px;
+    content: ".";
+    position:relative;
+    margin-bottom: 3rem;
+        
+}
+*/
+/*
+p{
+  margin:0 auto;
+  padding:0;
+  display:block;
+  font-size:10rem;
+  font-width:10rem;
+  border:solid 3px;
+  float:right;
+  
+}
+*/
+/*
+article{
+    background-color:ghostwhite;
+    margin:0 auto;
+    width:30rem;
+    height:30rem;
+    border:solid 3px;
+    float:right;
+    content:".";
+    position:relative;
+    margin-bottom: 3rem;
+}
+section{
+    background-color:ghostwhite;
+    margin:0 auto;
+    width:30rem;
+    height:30rem;
+    border:solid 3px;
+    position:relative;
+    margin-bottom: 3rem;
+}
+footer{
+    background-color:ghostwhite;
+    margin:0 auto;
+    width:30rem;
+    height:30rem;
+    border:solid 3px;
+    position:relative;
+    float:left;
+    margin-bottom: 3rem;
+}
+*/
+
+
+
+    
+    
+    
+    
+    
+    
+    
