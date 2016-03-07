@@ -128,3 +128,158 @@ html, body{
     transform: translateY(-6.5rem);
 }
 
+@media only screen and (max-width:890px){
+    body{
+        background-color: red;
+    }
+    header{
+        transform: translate(155px,205px);
+    }
+    #dice_three{
+        transform: translate(-30rem);
+    }
+    #dice_four{
+        float: left;
+        top:-500px;
+    }
+    #dice_five{
+        transform: rotate(45deg);
+    }
+    footer{
+        transform: translate(-260px,-250px)
+    }
+}
+@media only screen and (max-width:650px){
+    body{
+        background-color: green;
+    }
+    header{
+        transform: translate(-10px,-200px);
+    }
+    #dice_two{
+        transform: translate(20px,100px);
+        
+    }
+    #dice_three{
+        transform: translate(-320px,-7px);
+        
+    }
+    #dice_four{
+        transform: translate(280px,250px);
+    }
+    #dice_five{
+        transform: translate(-320px,-10px);
+    }
+    footer{
+        transform: translate(-120px,-2px);
+    }
+    
+}
+@media only screen and (max-width:550px){
+    body{
+        background-color: #fff;
+    }
+    header{
+        position: absolute;
+    }
+    #dice_two{
+        transform: translate(150px,100px);
+        position: absolute;
+    }
+    #dice_three{
+        position: absolute;
+        transform: translate(20px,350px);
+    }
+    #dice_four{
+        background-color: red;
+        top:0;
+        transform: translate(170px,300px);
+        position: absolute;
+    }
+    #dice_five{
+        position: absolute;
+        margin-left: 320px;
+    }
+    footer{
+       top: 480px; 
+        margin: 0;
+        margin-left: 26rem;
+        position: absolute;
+    }
+    
+}
+
+/*OLD MEDIA BELOW*/
+/*
+@media screen and (min-width:833px){
+body{
+    display:inline-block;
+    background-color:blue;
+    position:relative;
+    margin:0 auto;
+    
+
+}
+    @media screen and (min-width:830px){
+        .dice{
+            display:inline-block;
+            background-color:orange;
+        }
+    }  
+    @media screen and (min-width:825px){
+        header.dice{
+            display:block;
+            float:left;
+        }
+    }
+        @media screen and (min-width:500px){
+        div.dice{
+            
+            display:block;
+            float:left;
+        }
+    }
+        @media screen and (min-width:450px){
+        article.dice{
+            
+            display:block;
+            float:left;
+        }
+    }
+        @media screen and (min-width:335px){
+        section.dice{
+            
+            display:inline-block;
+            float:left;
+        }
+    }
+*/
+/*
+        @media screen and (min-width:830px){
+            header > div > article > section{
+            display:inline-block;
+            background-color:bisque;
+            float:left;
+               
+        }
+    }   
+*/
+    
+/*
+@media screen and (min-width:768px){
+        body{
+            background-color:cyan;
+        }
+    }  
+    
+@media screen and (min-width:460px){
+span > .center_dot{
+		background-color:black;
+	}
+}
+
+@media screen and (min-width:375px){
+  .footer{
+    background-color:white;
+  }
+}*/
